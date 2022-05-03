@@ -29,9 +29,12 @@ steps done to solve problem
 24. check mulicolinearity and remove some independent varibales based on this multicolinearity
 25. convert categorical values into numerics through onehot encoding
 26. one of the major issue is class imbalace in data. tried several ways to deal with this multicolinearity
-    a. created some models on imbalanced data but they were not giving good accuracy
-    b. tried undersampling but data got reduced much and it was unable to capture all the information/variety of data so not giving good accuracy
-    c. lastly tried SMOTE to oversample the data and it as giving good accuracy. but the only problem was we have created some syntehic data which is not a good practice but we didn't have a choise so we have to do it.
+
+a. created some models on imbalanced data but they were not giving good accuracy
+
+b. tried undersampling but data got reduced much and it was unable to capture all the information/variety of data so not giving good accuracy
+
+c. lastly tried SMOTE to oversample the data and it as giving good accuracy. but the only problem was we have created some syntehic data which is not a good practice but we didn't have a choise so we have to do it.
     
 27. again check class imbalance
 28. converted data into array formate for smoot processing
